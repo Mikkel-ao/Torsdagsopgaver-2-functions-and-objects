@@ -78,7 +78,4 @@ You will need your Datamatik and Student tab from task 3. If you have created a 
 
 - 5.c From your setup() method in Datamatik, call the function isClassmates() with two Student-objects. Make sure that you assign the returnvalue to a variable in the setup()-function. From setup() print "<Student-name> and <Student-name> are classmates" is they are on the same team and "<Student-name> and <Student-name> are not classmates" if they are not. 
 
-## Task 6: Debugging
-
-- 6.a Åbn Debug sketchen og ret fejlene så den kan køre.
 
