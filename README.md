@@ -4,7 +4,7 @@
 
  - 1.a Create a sketch and name it Task1. Write a void setup()-function in the sketch.
 
- - 1.b Write a function that prints an empty line and call it from setup();
+ - 1.b Write a function that prints "Hello from the function" and call it from setup();
 
  - 1.c Write a function that receives a String as a parameter and prints it. 
     Call this function from setup()
@@ -51,7 +51,7 @@ Small Processing-hack: If you have more than one tab and you get the error messa
 
 - 3.h Populate the variables created in 3.f with the parameters of the constructor added in 3.g (this means that you assign the value of the parameters to the variables, like you did in 3.e)
 
-- 3.i Returning to the Datamatik class, add a setup() function and in this function create a new object/instance of the type Teacher and give it the name, age and gender of your teacher. 
+- 3.i Returning to the Datamatik tap, add a setup() function and in this function create a new object/instance of the type Teacher and give it the name, age and gender of your teacher. 
 
 - 3.j Also in the setup() function of Datamatik, create two new objects/instances of the type Student. The first one, with your own name, age and gender. The second one with the name, age and gender of a student in your study group. 
 
