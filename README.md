@@ -1,38 +1,39 @@
-### Exercises with functions and objects 
+### Exercises with methods and objects 
 
 ## Task 1: Functions
 
- - 1.a Create a sketch and name it Task1. Write a void setup()-function in the sketch.
+ - 1.a Create a sketch and name it Task1. Write a void setup()-method in the sketch.
 
- - 1.b Write a function that prints "Hello from the function" and call it from setup();
+ - 1.b Write a method that prints "Hello from the method" and call it from setup();
 
- - 1.c Write a function that receives a String as a parameter and prints it. 
-    Call this function from setup()
+ - 1.c Write a method that receives a String as a parameter and prints it. 
+    Call this method from setup()
 
- - 1.d Write a function that receives a String as a parameter called "name" and an integer as a parameter called "age" and call it from setup with your own name and age. Have the function print the text "My name is \<name\>, I am \<age\> years old".
+ - 1.d Write a method that receives a String as a parameter called "name" and an integer as a parameter called "age" and call it from setup with your own name and age. Have the method print the text "My name is \<name\>, I am \<age\> years old".
 
 ## Task 2: Functions' return types
 
 - 2.a Look at the file TaskTwoA and fill out the missing line, using the happy boolean. 
 
-- 2.b Write a function that receives two integers as parameters and returns the sum of them.
+- 2.b Write a method that receives two integers as parameters and returns the sum of them.
 
-- 2.c Write a function that receives a String and returns it as uppercase. 
+- 2.c Write a method that receives a String and returns it as uppercase. 
 <details>
   <summary>Hint</summary>
   <p>Use the String-method ".toUpperCase()" on your String. Notice that toUpperCase() has a String as returntype </p>
 </details>
 
-- 2.d Write a function that receives a String and returns true if the first letter of the String is uppercase. 
+- 2.d Write a method that receives a String and returns true if the first letter of the String is uppercase. 
 <details>
   <summary>Hint</summary>
   <p>Use the String-method ".charAt(0)" and "Character.isUpperCase('a');" </p>
 </details>
-- 2.e Call your new functions from setup(). In setup(), make sure the functions' return values are assigned to variables of the right data type. Print out the variables - still from setup.
+- 2.e Call your new methods from setup(). In setup(), make sure the methods' return values are assigned to variables of the right data type. Print out the variables - still from setup.
+
 
 
 ## Task 3: Objects
-Small Processing-hack: If you have more than one tab and you get the error message "Cannot find a class or type named.." you can fix this by adding a setup() method to the "missing class/tab".
+Small Processing-hack: If you have more than one tab and you get the error message "Cannot find a class or type named.." you can fix this by adding a setup() function to the "missing class/tab".
 
 
 - 3.a Start a new sketch. Call it Task3. Create a new tab and give it the name "Datamatik".
@@ -51,7 +52,7 @@ Small Processing-hack: If you have more than one tab and you get the error messa
 
 - 3.h Populate the variables created in 3.f with the parameters of the constructor added in 3.g (this means that you assign the value of the parameters to the variables, like you did in 3.e)
 
-- 3.i Returning to the Datamatik tap, add a setup() function and in this function create a new object/instance of the type Teacher and give it the name, age and gender of your teacher. 
+- 3.i Returning to the Datamatik tap, add a setup() function and in this method create a new object/instance of the type Teacher and give it the name, age and gender of your teacher. 
 
 - 3.j Also in the setup() function of Datamatik, create two new objects/instances of the type Student. The first one, with your own name, age and gender. The second one with the name, age and gender of a student in your study group. 
 
@@ -61,21 +62,46 @@ Small Processing-hack: If you have more than one tab and you get the error messa
 
 
 ## Task 4: Functions and objects
-You will need your Datamatik and Student tab from task 3. If you have created a new sketch for task 4, you can copy the files Datamatik.pde and Student.pde from the folder Task3 (or whatever sketch you used to do task 3) to the folder Task4 (or whatever you named the sketch you are using for this task)
+Create a new sketch, Task4 and copy the files Datamatik.pde and Student.pde from the folder Task3 to the folder Task5.
 
-- 4.a In the Teacher class, make a function called changeName. The function should have the returntype void and take a String newName as parameter. The function should change the global variable name to the newName given as argument to the function when called. 
+- 4.a In the Teacher class, make a method called changeName. The method should have the returntype void and take a String newName as parameter. The method should change the global variable name to the newName given as argument to the method when called. 
  
 - 4.b In your setup() function from 3.i you must now change the name of your Teacher-object, by calling the method changeName() with a new name.
 
-- 4.c Print the name of the teacher in the setup() method again to see if it has changed. 
+- 4.c Print the name of the teacher in the setup() function again to see if it has changed. 
 
-## Task 5:  More functions
-You will need your Datamatik and Student tab from task 3. If you have created a new sketch for task 5, you can copy the files Datamatik.pde and Student.pde from the folder Task3 (or whatever sketch you used to do task 3) to the folder Task5 (or whatever you named the sketch you are using for this task)
 
-- 5.a In your tab Datamatik, make a new function called isClassmates(). The function should take two Student objects as parameters. The function should return a boolean. 
+## Task 5:  Compare attribute values of to objects
+Create a new sketch for Task5 and copy the files Datamatik.pde and Student.pde from the folder Task3 to the folder Task5.
 
-- 5.b Make your function return true, if the team-variable of one of the Student has the same value as the team-variable of the other Student given as argument to the method. For example, if both Students are on team "DAT1" or team 1 (depending on which data type you have used for the global variable team), the function should return true. If they are not on the same team, the function should return false.
+- 5.a In your tab Datamatik, make a new method called isClassmates(). The method should take two Student objects as parameters. The method  should return a boolean. 
 
-- 5.c From your setup() method in Datamatik, call the function isClassmates() with two Student-objects. Make sure that you assign the returnvalue to a variable in the setup()-function. From setup() print "<Student-name> and <Student-name> are classmates" is they are on the same team and "<Student-name> and <Student-name> are not classmates" if they are not. 
+- 5.b Make your method return true, if the team-variable of one of the Student has the same value as the team-variable of the other Student given as argument to the method. For example, if both Students are on team "DAT1" or team 1 (depending on which data type you have used for the global variable team), the method should return true. If they are not on the same team, the method should return false.
+
+- 5.c From your setup() function in Datamatik, call the method isClassmates() with two Student-objects. Make sure that you assign the returnvalue to a variable in the setup()-method. From setup() print "<Student-name> and <Student-name> are classmates" is they are on the same team and "<Student-name> and <Student-name> are not classmates" if they are not. 
+
+
+## Task 6. Parameterized functionality
+ Start a new sketch and add a setup-function,  all values between 0 and 100 that are . 
+
+- 6.a Add a function called <code>divisible</code> that takes in an int as a parameter.
+
+- 6.b In the function add a for-loop in where there is a print statement that prints out <code>i</code> (the counter of the for-loop), but only if <code>i</code> is divisible by the parameter received.
+
+<details>
+  <summary>Hint</summary>
+  <p>you need to use the % operator</p>
+</details>
+
+- 6.c Call the method from setup() to see if it works
+
+
+## Task 7. Pick a random number from array
+
+7.a Add the following array as a global variable: int[] arr = { 28, 230, 9, 310,72}
+
+7b.d Write a method, getRandom() that returns a random element from the above array.
+
+
 
 
