@@ -11,6 +11,9 @@
 
  - 1.d Write a method that receives a String as a parameter called "name" and an integer as a parameter called "age" and call it from setup with your own name and age. Have the method print the text "My name is \<name\>, I am \<age\> years old".
 
+
+---
+
 ## Task 2: Functions' return types
 
 - 2.a Look at the file TaskTwoA and fill out the missing line, using the happy boolean. 
@@ -31,6 +34,7 @@
 - 2.e Call your new methods from setup(). In setup(), make sure the methods' return values are assigned to variables of the right data type. Print out the variables - still from setup.
 
 
+---
 
 ## Task 3: Objects
 Small Processing-hack: If you have more than one tab and you get the error message "Cannot find a class or type named.." you can fix this by adding a setup() function to the "missing class/tab".
@@ -61,6 +65,8 @@ Small Processing-hack: If you have more than one tab and you get the error messa
 - 3.l in the setup() function print the names of both students and which teams they are from. 
 
 
+---
+
 ## Task 4: Functions and objects
 Create a new sketch, Task4 and copy the files Datamatik.pde and Student.pde from the folder Task3 to the folder Task5.
 
@@ -71,6 +77,8 @@ Create a new sketch, Task4 and copy the files Datamatik.pde and Student.pde from
 - 4.c Print the name of the teacher in the setup() function again to see if it has changed. 
 
 
+---
+
 ## Task 5:  Compare attribute values of to objects
 Create a new sketch for Task5 and copy the files Datamatik.pde and Student.pde from the folder Task3 to the folder Task5.
 
@@ -80,6 +88,7 @@ Create a new sketch for Task5 and copy the files Datamatik.pde and Student.pde f
 
 - 5.c From your setup() function in Datamatik, call the method isClassmates() with two Student-objects. Make sure that you assign the returnvalue to a variable in the setup()-method. From setup() print "<Student-name> and <Student-name> are classmates" is they are on the same team and "<Student-name> and <Student-name> are not classmates" if they are not. 
 
+---
 
 ## Task 6. Parameterized functionality
  Start a new sketch and add a setup-function,  all values between 0 and 100 that are . 
@@ -96,12 +105,16 @@ Create a new sketch for Task5 and copy the files Datamatik.pde and Student.pde f
 - 6.c Call the method from setup() to see if it works
 
 
-## Task 7. Pick a random number from array
+---
 
-7.a Add the following array as a global variable: int[] arr = { 28, 230, 9, 310,72}
+## Task 7. Recursion
+A function can call itself. This is called recursion. To prevent a recursive function from generating an infinite loop, one must add a constraint.
 
-7b.d Write a method, getRandom() that returns a random element from the above array.
+- 7.a Write a function that takes an integer as a parameter and prints the number. 
 
+- 7.b Make the function subtract 1 from the parameter.
+
+- 7.c Check if the new value is less than zero. If not, make a call to itself using the new value as the argument(recursion). 
 
 
 
