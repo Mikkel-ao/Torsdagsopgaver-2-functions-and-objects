@@ -91,8 +91,8 @@ Create a new sketch for Task5 and copy the files Datamatik.pde and Student.pde f
 ---
 
 ## Task 6. Parameterized functionality
- Start a new sketch and add a setup-function,  all values between 0 and 100 that are . 
-
+ Start a new sketch and add a setup-function
+ 
 - 6.a Add a function called <code>divisible</code> that takes in an int as a parameter.
 
 - 6.b In the function add a for-loop in where there is a print statement that prints out <code>i</code> (the counter of the for-loop), but only if <code>i</code> is divisible by the parameter received.
