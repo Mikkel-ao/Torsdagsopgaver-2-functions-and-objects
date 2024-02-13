@@ -95,7 +95,7 @@ Create a new sketch for Task5 and copy the files Datamatik.pde and Student.pde f
  
 - 6.a Add a function called <code>divisible</code> that takes in an int as a parameter.
 
-- 6.b In the function add a for-loop in where there is a print statement that prints out <code>i</code> (the counter of the for-loop), but only if <code>i</code> is divisible by the parameter received.
+- 6.b In the function add a for-loop in where there is a print statement that prints out <code>i</code> (the counter of the for-loop), but only if <code>i</code> is divisible by the parameter received. Let <code>i</code> be initialized with the value 1 and let the loop end when i > 100. 
 
 <details>
   <summary>Hint</summary>
