@@ -44,13 +44,13 @@ Small Processing-hack: If you have more than one tab and you get the error messa
 
 - 3.b Create a new tab called "Teacher" and another one called "Student". You should now see three new files in your sketch folder, called Datamatik.pde, Teacher.pde and Student.pde.
 
-- 3.c In the Student tab, declare the class "Student" and add 4 global variables: "name", "age", "isFemale", "datamatikerTeam" using appropriate data types for each.
+- 3.c In the Student tab, declare the class "Student" and add 4 instance variables: "name", "age", "isFemale", "datamatikerTeam" using appropriate data types for each.
 
-- 3.d In the Student class, add a constructor that takes in 4 parameters with the names "tmpName", "tmpAge", "tmpIsFemale", "tmpDatamatikerTeam" with the same data types used for global variables in 3.c
+- 3.d In the Student class, add a constructor that takes in 4 parameters with the names "tmpName", "tmpAge", "tmpIsFemale", "tmpDatamatikerTeam" with the same data types used for instance variables in 3.c
 
-- 3.e In the constructor, assign the values of the parameters to the global variables created in 3.c. 
+- 3.e In the constructor, assign the values of the parameters to the instance variables created in 3.c. 
 
-- 3.f In the Teacher tab, declare the class "Teacher" and add 3 global variables: "name", "age", "isFemale", using appropriate data types for each.
+- 3.f In the Teacher tab, declare the class "Teacher" and add 3 instance variables: "name", "age", "isFemale", using appropriate data types for each.
 
 - 3.g In the Teacher class, add a constructor that takes in 3 parameters with the names "tmpName", "tmpAge", "tmpIsFemale" with the same datatypes used in 3.f
 
@@ -70,7 +70,7 @@ Small Processing-hack: If you have more than one tab and you get the error messa
 ## Task 4: Functions and objects
 Create a new sketch, Task4 and copy the files Datamatik.pde and Student.pde from the folder Task3 to the folder Task5.
 
-- 4.a In the Teacher class, make a method called changeName. The method should have the returntype void and take a String newName as parameter. The method should change the global variable name to the newName given as argument to the method when called. 
+- 4.a In the Teacher class, make a method called changeName. The method should have the returntype void and take a String newName as parameter. The method should change the instance variable name to the newName given as argument to the method when called. 
  
 - 4.b In your setup() function from 3.i you must now change the name of your Teacher-object, by calling the method changeName() with a new name.
 
@@ -84,7 +84,7 @@ Create a new sketch for Task5 and copy the files Datamatik.pde and Student.pde f
 
 - 5.a In your tab Datamatik, make a new method called isClassmates(). The method should take two Student objects as parameters. The method  should return a boolean. 
 
-- 5.b Make your method return true, if the team-variable of one of the Student has the same value as the team-variable of the other Student given as argument to the method. For example, if both Students are on team "DAT1" or team 1 (depending on which data type you have used for the global variable team), the method should return true. If they are not on the same team, the method should return false.
+- 5.b Make your method return true, if the team-variable of one of the Student has the same value as the team-variable of the other Student given as argument to the method. For example, if both Students are on team "DAT1" or team 1 (depending on which data type you have used for the instance variable team), the method should return true. If they are not on the same team, the method should return false.
 
 - 5.c From your setup() function in Datamatik, call the method isClassmates() with two Student-objects. Make sure that you assign the returnvalue to a variable in the setup()-method. From setup() print "<Student-name> and <Student-name> are classmates" is they are on the same team and "<Student-name> and <Student-name> are not classmates" if they are not. 
 
